@@ -62,7 +62,7 @@ apt install libgmp-dev # on Ubuntu
 ```
 git clone git://github.com/herumi/mcl
 cd mcl
-make -j4
+make -j4  [Add UPDATE_ASM=1 To gen systemz asm files]
 ```
 
 - `lib/libmcl.*` ; core library
